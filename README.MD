@@ -119,7 +119,7 @@ database = {
 }
 ```
 * Create File ```Transactions.py```
-```class Transactions``` : to manage data and functions related to shopping transactions, this class will have the following attributes and methods:
+To manage data and functions related to shopping transactions, this file will have the following attributes and methods:
 ```python
 Attributes:
 
