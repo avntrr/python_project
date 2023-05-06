@@ -1,7 +1,23 @@
 # Building Supermarket Self-Service Application with Python.
 ### A. Background
 Shopping at supermarkets often requires a lot of time and effort, especially when there are long queues at the cashier or when searching for desired items. Self-service applications in supermarkets have become an innovative solution to speed up the shopping process and reduce waiting time at the cashier. I build a simple self-service application using Python, one of the most popular and easy-to-learn programming languages.
-### B. Requirements
+### B. Requirements & Objectives
+The requirements of this self-service supermarket application are:
+`Primary functionality`: The application must provide essential functionality such as adding items to the shopping list, updating item information, removing items, and completing transactions.
+`Managing item data`: The application should be able to store and access item data, such as item codes, item names, and prices. This data must be stored in an efficient and easily accessible data structure.
+`Managing transactions`: The application should be able to manage transactions, including calculating the total shopping cost, applying discounts, and saving transaction data into a database.
+`Reliability`: The application should be error-free and capable of handling various input scenarios and unexpected conditions. Extensive testing should be carried out to ensure the application's reliability.
+
+The objectives of this self-service supermarket application are:
+`Increase transaction efficiency and speed`: This application aims to expedite the transaction process at supermarkets by reducing the time required to process purchases and calculate the shopping total.
+
+`Reduce human error`: By automating the calculation of shopping totals and the application of discounts, this application aims to minimize errors that could occur when cashiers perform calculations manually.
+
+`Enhance customer experience`: This application is designed to provide a more convenient and straightforward shopping experience for customers, ultimately increasing customer satisfaction and retention.
+
+`Facilitate tracking and data analysis`: By storing transaction data in a database, this application enables supermarkets to track sales and analyze data to make better-informed business decisions.
+
+
 #### Library
 ```pandas``` : to perform mathematical operations in applications such as adding item prices or applying discounts. <br>
 ```SQLite```: used to store shopping data inputted by customers. <br>
@@ -100,3 +116,4 @@ Delete all items from the shopping list;
 Return to Menu.
 ```
 `Exit Application`: if the choice is 8, end.
+### D. Code
