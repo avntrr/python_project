@@ -14,46 +14,8 @@ The objectives of this self-service supermarket application are:<br>
 * Enhance customer experience: This application is designed to provide a more convenient and straightforward shopping experience for customers, ultimately increasing customer satisfaction and retention.
 * Facilitate tracking and data analysis: By storing transaction data in a database, this application enables supermarkets to track sales and analyze data to make better-informed business decisions.
 
-
-#### Library
-```pandas``` : to perform mathematical operations in applications such as adding item prices or applying discounts. <br>
-```SQLite```: used to store shopping data inputted by customers. <br>
-```Tabulate```: used to display the shopping data in a neat and easy-to-read table format. <br>
-```class Transactions``` : to manage data and functions related to shopping transactions, this class will have the following attributes and methods:
-```python
-Attributes:
-
-items: a list that contains shopping items
-transactions: a list that contains transaction data
-conn: a connection object to access SQLite database
-c: a cursor object to execute SQL commands on the database
-```
-```python
-Methods:
-
-init(): initializes the Transaction object and creates a table in the database if it does not exist.
-
-add_item(): adds an item to the shopping list.
-
-update_item_code(): updates the item code in the shopping list.
-
-update_item_qty(): updates the quantity of an item in the shopping list.
-
-delete_item(): deletes an item from the shopping list.
-
-reset_transaction(): deletes all items from the shopping list.
-
-insert_to_list(): inserts transaction data into the transactions list.
-
-check_order(): displays the shopping list, calculates the total price, and applies any discounts.
-
-insert_to_table(): saves transaction data to the database.
-
-check_out(): finalizes the transaction and saves data to the database.
-
-del(): closes the database connection when the object is deleted.
-```
-### C. Flowchart
+### C. Flowchart and Code
+#### Flowchart
 After identifying the main features, we will design an application flowchart to visually depict the workflow of the application. The flowchart will clarify how these features interact with each other and assist in planning the overall application structure.
 ![tugas drawio (1)](https://user-images.githubusercontent.com/54851225/236612303-9a3818c9-6b89-42ce-9c2e-2700511fe0cb.png)
 
@@ -113,4 +75,42 @@ Delete all items from the shopping list;
 Return to Menu.
 ```
 `Exit Application`: if the choice is 8, end.
-### D. Code
+
+#### Library
+```pandas``` : to perform mathematical operations in applications such as adding item prices or applying discounts. <br>
+```SQLite```: used to store shopping data inputted by customers. <br>
+```Tabulate```: used to display the shopping data in a neat and easy-to-read table format. <br>
+```class Transactions``` : to manage data and functions related to shopping transactions, this class will have the following attributes and methods:
+```python
+Attributes:
+
+items: a list that contains shopping items
+transactions: a list that contains transaction data
+conn: a connection object to access SQLite database
+c: a cursor object to execute SQL commands on the database
+```
+```python
+Methods:
+
+init(): initializes the Transaction object and creates a table in the database if it does not exist.
+
+add_item(): adds an item to the shopping list.
+
+update_item_code(): updates the item code in the shopping list.
+
+update_item_qty(): updates the quantity of an item in the shopping list.
+
+delete_item(): deletes an item from the shopping list.
+
+reset_transaction(): deletes all items from the shopping list.
+
+insert_to_list(): inserts transaction data into the transactions list.
+
+check_order(): displays the shopping list, calculates the total price, and applies any discounts.
+
+insert_to_table(): saves transaction data to the database.
+
+check_out(): finalizes the transaction and saves data to the database.
+
+del(): closes the database connection when the object is deleted.
+```
