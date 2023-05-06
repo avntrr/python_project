@@ -4,8 +4,8 @@ Shopping at supermarkets often requires a lot of time and effort, especially whe
 ### B. Requirements
 #### Library
 ```pandas``` : to perform mathematical operations in applications such as adding item prices or applying discounts. <br>
-```SQLite```: used to store shopping data inputted by customers.
-```Tabulate```: used to display the shopping data in a neat and easy-to-read table format.
+```SQLite```: used to store shopping data inputted by customers. <br>
+```Tabulate```: used to display the shopping data in a neat and easy-to-read table format. <br>
 ```class Transactions``` : to manage data and functions related to shopping transactions, this class will have the following attributes and methods:
 ```python
 Attributes:
