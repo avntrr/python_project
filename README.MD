@@ -5,4 +5,6 @@ Shopping at supermarkets often requires a lot of time and effort, especially whe
 #### Library
 ```pandas``` : to perform mathematical operations in applications such as adding item prices or applying discounts.
 ```python
-class Transactions```: 
+class Transactions:
+```
+To manage data and functions related to shopping transactions, this class will have the following attributes and methods:
