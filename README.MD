@@ -42,7 +42,7 @@ del(): closes the database connection when the object is deleted.
 ```
 ### C. Flowchart
 After identifying the main features, we will design an application flowchart to visually depict the workflow of the application. The flowchart will clarify how these features interact with each other and assist in planning the overall application structure.
-![tugas](https://user-images.githubusercontent.com/54851225/236612005-e3b93942-a285-406b-8a33-260feed6fcd9.png)
+![tugas drawio (1)](https://user-images.githubusercontent.com/54851225/236612303-9a3818c9-6b89-42ce-9c2e-2700511fe0cb.png)
 
 
 `Start`: This is the starting point of the flowchart.
@@ -52,17 +52,16 @@ After identifying the main features, we will design an application flowchart to 
 `Input Shopping List`: From "Menu Choice", if the choice is 1, direct to the process "Input Item Code". Here are the steps:
 
 ```python
-Request input for item name;
+Request input for item code;
 Request input for item quantity;
-Request input for item price;
 Add item to shopping list;
 Return to Menu.
 ```
 `Update Item Code`: to modify previously entered items. If the choice is 2, direct to the process "Update Item Code". Here are the steps:
 
 ```python
-Request input for old item name;
-Request input for new item name;
+Request input for old item code;
+Request input for new item code;
 Update item name;
 Return to Menu.
 ```
