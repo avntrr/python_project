@@ -15,7 +15,7 @@ The objectives of this self-service supermarket application are:<br>
 * Facilitate tracking and data analysis: By storing transaction data in a database, this application enables supermarkets to track sales and analyze data to make better-informed business decisions.
 
 ### C. Flowchart and Code
-#### Flowchart
+#### 1. Flowchart
 After identifying the main features, we will design an application flowchart to visually depict the workflow of the application. The flowchart will clarify how these features interact with each other and assist in planning the overall application structure.
 ![tugas drawio (1)](https://user-images.githubusercontent.com/54851225/236612303-9a3818c9-6b89-42ce-9c2e-2700511fe0cb.png)
 
@@ -76,7 +76,7 @@ Return to Menu.
 ```
 `Exit Application`: if the choice is 8, end.
 
-#### Library
+#### 2. Library
 ```pandas``` : to perform mathematical operations in applications such as adding item prices or applying discounts. <br>
 ```SQLite```: used to store shopping data inputted by customers. <br>
 ```Tabulate```: used to display the shopping data in a neat and easy-to-read table format. <br>
@@ -114,3 +114,41 @@ check_out(): finalizes the transaction and saves data to the database.
 
 del(): closes the database connection when the object is deleted.
 ```
+#### 3.Code
+* Create a Database for Items
+Assume that the supermarket has already recorded its entire inventory, and each item has an ID. User who wants to input their purchases only needs to enter the item code and the quantity of the item.
+```python
+database = {
+    '001': ['Beras', 10000],
+    '002': ['Telur', 20000],
+    '003': ['Gula', 15000],
+    '004': ['Minyak Goreng', 25000],
+    '005': ['Teh Celup', 5000],
+    '006': ['Kopi', 3000],
+    '007': ['Detergen', 20000],
+    '008': ['Sabun Mandi', 15000],
+    '009': ['Shampoo', 20000],
+    '010': ['Pasta Gigi', 10000],
+    '011': ['Buku Tulis', 5000],
+    '012': ['Pensil', 2000],
+    '013': ['Penghapus', 1000],
+    '014': ['Rautan', 5000],
+    '015': ['Pulpen', 3000],
+    '016': ['Papan Tulis Kecil', 20000],
+    '017': ['Spidol', 5000],
+    '018': ['Penggaris', 3000],
+    '019': ['Buku Gambar', 15000],
+    '020': ['Crayon', 20000],
+    '021': ['Tas Sekolah', 100000],
+    '022': ['Sepatu Sekolah', 150000],
+    '023': ['Seragam Sekolah', 200000],
+    '024': ['Topi Sekolah', 50000],
+    '025': ['Jas Almamater', 200000],
+    '026': ['Kaos Olahraga', 50000],
+    '027': ['Celana Olahraga', 50000],
+    '028': ['Sepatu Olahraga', 150000],
+    '029': ['Knee Pad', 50000],
+    '030': ['Elbow Pad', 50000],
+}
+```
+* Create File Transactions.py
