@@ -4,7 +4,10 @@ Shopping at supermarkets often requires a lot of time and effort, especially whe
 ### B. Requirements
 #### Library
 ```pandas``` : to perform mathematical operations in applications such as adding item prices or applying discounts.
-```python
-class Transactions:
-```
-To manage data and functions related to shopping transactions, this class will have the following attributes and methods:
+```class Transactions``` : to manage data and functions related to shopping transactions, this class will have the following attributes and methods:
+```Attributes:
+
+items: a list that contains shopping items.
+transactions: a list that contains transaction data.
+conn: a connection object to access SQLite database.
+c: a cursor object to execute SQL commands on the database.```
