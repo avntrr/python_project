@@ -42,7 +42,8 @@ del(): closes the database connection when the object is deleted.
 ```
 ### C. Flowchart
 After identifying the main features, we will design an application flowchart to visually depict the workflow of the application. The flowchart will clarify how these features interact with each other and assist in planning the overall application structure.
-![tugas drawio](https://user-images.githubusercontent.com/54851225/236611753-95620a7b-c6bf-4d4b-a1bb-0f22e72787fe.png)
+![tugas](https://user-images.githubusercontent.com/54851225/236612005-e3b93942-a285-406b-8a33-260feed6fcd9.png)
+
 
 `Start`: This is the starting point of the flowchart.
 
@@ -99,4 +100,4 @@ End.
 Delete all items from the shopping list;
 Return to Menu.
 ```
-`Exit Application`: If the choice is 8, end.
+`Exit Application`: if the choice is 8, end.
