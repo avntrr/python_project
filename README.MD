@@ -40,3 +40,63 @@ check_out(): finalizes the transaction and saves data to the database.
 
 del(): closes the database connection when the object is deleted.
 ```
+### C. Flowchart
+After identifying the main features, we will design an application flowchart to visually depict the workflow of the application. The flowchart will clarify how these features interact with each other and assist in planning the overall application structure.
+![tugas drawio](https://user-images.githubusercontent.com/54851225/236611753-95620a7b-c6bf-4d4b-a1bb-0f22e72787fe.png)
+
+`Start`: This is the starting point of the flowchart.
+
+`Menu`: Create a decision box labeled "Menu Choice" with arrows pointing to decision boxes for each option in the menu (1-8).
+
+`Input Shopping List`: From "Menu Choice", if the choice is 1, direct to the process "Input Item Code". Here are the steps:
+
+```python
+Request input for item name;
+Request input for item quantity;
+Request input for item price;
+Add item to shopping list;
+Return to Menu.
+```
+`Update Item Code`: to modify previously entered items. If the choice is 2, direct to the process "Update Item Code". Here are the steps:
+
+```python
+Request input for old item name;
+Request input for new item name;
+Update item name;
+Return to Menu.
+```
+`Update Item Quantity`: to change the quantity of previously entered items. If the choice is 3, direct to the process "Update Item Quantity". Here are the steps:
+
+```python
+Request input for item code;
+Request input for new item quantity;
+Update item quantity;
+Return to Menu.
+```
+`Delete Item`: to delete previously entered items. If the choice is 4, direct to the process "Delete Item". Here are the steps:
+
+```python
+Request input for item code;
+Delete item from shopping list;
+Return to Menu.
+```
+`Check Order`: if the choice is 5, direct to the process "Check Order". Here are the steps:
+
+```python
+Display the shopping list;
+Return to Menu.
+```
+`Complete Shopping`: if the choice is 6, direct to the process "Complete Shopping". Here are the steps:
+
+```python
+Display the shopping list and total price;
+Save the transaction to the database;
+End.
+```
+`Reset Transaction`: if the choice is 7, direct to the process "Reset Transaction". Here are the steps:
+
+```python
+Delete all items from the shopping list;
+Return to Menu.
+```
+`Exit Application`: If the choice is 8, end.
