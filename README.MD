@@ -115,7 +115,7 @@ check_out(): finalizes the transaction and saves data to the database.
 del(): closes the database connection when the object is deleted.
 ```
 #### 3.Code
-* Create a Database for Items
+* Create a Database for Items <br>
 Assume that the supermarket has already recorded its entire inventory, and each item has an ID. User who wants to input their purchases only needs to enter the item code and the quantity of the item.
 ```python
 database = {
