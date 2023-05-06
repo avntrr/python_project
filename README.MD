@@ -82,7 +82,7 @@ Return to Menu.
 ```Tabulate```: used to display the shopping data in a neat and easy-to-read table format. <br>
 
 #### 3.Code
-* Create a Database for Items in ```database.py```
+* Create a Database for Items
 Assume that the supermarket has already recorded its entire inventory, and each item has an ID. User who wants to input their purchases only needs to enter the item code and the quantity of the item.
 ```python
 database = {
@@ -118,6 +118,8 @@ database = {
     '030': ['Elbow Pad', 50000],
 }
 ```
+Save the file with the name `database.py` and import it into the `transactions.py` file.
+
 * Create File ```Transactions.py```
 To manage data and functions related to shopping transactions, this file will have the following attributes and methods:
 ```python
@@ -153,4 +155,5 @@ check_out(): finalizes the transaction and saves data to the database.
 
 del(): closes the database connection when the object is deleted.
 ```
-
+* Create File `main.py`
+`main.py` is responsible for handling user inputs, displaying menus, and executing the corresponding actions based on user choices. It imports the Transaction class from `transactions.py`, which manages the shopping transactions, as well as the necessary libraries such as `sqlite3`, `pandas`, and `tabulate`. Through a series of prompts and menu options, `main.py` guides the user to perform actions such as adding items to their shopping list, updating item information, deleting items, and completing the transaction.
