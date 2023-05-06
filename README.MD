@@ -120,7 +120,7 @@ database = {
 ```
 Save the file with the name `database.py` and import it into the `transactions.py` file.
 
-* Create File ```Transactions.py```<br>
+* Create File ```transactions.py```<br>
 To manage data and functions related to shopping transactions, this file will have the following attributes and methods:
 ```python
 Attributes:
