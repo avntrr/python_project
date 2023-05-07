@@ -180,4 +180,4 @@ The customer wants to reset the previous shopping list.
 
 * Test 4: check out <br>
 The customer has finished entering all the items and checked out. The screen will display the details of the items, prices, discounts, and the total that must be paid.
-<img width="703" alt="check out" src="https://user-images.githubusercontent.com/54851225/236656286-1a9de676-97c7-408e-adc9-a4215bfbc8ec.png">
+<img width="703" alt="check out" src="https://user-images.githubusercontent.com/54851225/236656384-51008847-d80a-4fcb-b76a-5e0ead52f89b.png">
