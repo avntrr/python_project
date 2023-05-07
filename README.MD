@@ -157,3 +157,25 @@ del(): closes the database connection when the object is deleted.
 ```
 * Create File `main.py`<br>
 `main.py` is responsible for handling user inputs, displaying menus, and executing the corresponding actions based on user choices. It imports the Transaction class from `transactions.py`, which manages the shopping transactions, as well as the necessary libraries such as `sqlite3`, `pandas`, and `tabulate`. Through a series of prompts and menu options, `main.py` guides the user to perform actions such as adding items to their shopping list, updating item information, deleting items, and completing the transaction.
+### D. Demo
+After creating those 3 files, open cmd or terminal and go to the directory where the files are saved. Then run `python3 main.py` or `python main.py`.
+* Test 1: adding item
+The customer wants to buy 'Beras' and 'Minyak Goreng'. The item codes on the packaging are 001 for 'Beras' and 004 for 'Minyak Goreng:
+<img width="575" alt="Screenshot 2023-05-07 at 10 10 06" src="https://user-images.githubusercontent.com/54851225/236655586-6a7c6402-0035-44a9-8c1f-17cd156f7a74.png">
+<img width="573" alt="Screenshot 2023-05-07 at 10 15 19" src="https://user-images.githubusercontent.com/54851225/236655737-5fe9f294-3f80-460e-839d-e145c565e4dc.png">
+
+<img width="575" alt="Screenshot 2023-05-07 at 10 10 06" src="https://user-images.githubusercontent.com/54851225/236655586-6a7c6402-0035-44a9-8c1f-17cd156f7a74.png">
+
+Check the shopping list:
+
+* Test 2: delete item
+It turns out that the customer made a mistake in buying one of the items that was already added to the shopping list, so the customer used the "delete_item()" method to remove the item. The item that the customer wants to remove is 'Minyak Goreng'.
+<img width="569" alt="Screenshot 2023-05-07 at 10 17 59" src="https://user-images.githubusercontent.com/54851225/236655801-0565d40c-6dd4-45ac-9603-23acccfe11b4.png">
+
+* Test 3: reset transaction
+The customer wants to reset the previous shopping list.
+<img width="570" alt="Screenshot 2023-05-07 at 10 21 58" src="https://user-images.githubusercontent.com/54851225/236655930-37491014-7b97-40bf-a438-362637daad14.png">
+
+* Test 4: chekc out
+* 
+
