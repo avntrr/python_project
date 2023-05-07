@@ -161,18 +161,23 @@ del(): closes the database connection when the object is deleted.
 After creating those 3 files, open cmd or terminal and go to the directory where the files are saved. Then run `python3 main.py` or `python main.py`.
 * Test 1: adding item
 The customer wants to buy 'Beras' and 'Minyak Goreng'. The item codes on the packaging are 001 for 'Beras' and 004 for 'Minyak Goreng:
-<img width="575" alt="Screenshot 2023-05-07 at 10 10 06" src="https://user-images.githubusercontent.com/54851225/236655586-6a7c6402-0035-44a9-8c1f-17cd156f7a74.png"><img width="573" alt="Screenshot 2023-05-07 at 10 15 19" src="https://user-images.githubusercontent.com/54851225/236655737-5fe9f294-3f80-460e-839d-e145c565e4dc.png">
+<img width="575" alt="input item 1" src="https://user-images.githubusercontent.com/54851225/236655586-6a7c6402-0035-44a9-8c1f-17cd156f7a74.png">
+<img width="573" alt="input item 2" src="https://user-images.githubusercontent.com/54851225/236655737-5fe9f294-3f80-460e-839d-e145c565e4dc.png">
 
 Check the shopping list:
+<img width="702" alt="check shopping list" src="https://user-images.githubusercontent.com/54851225/236656136-38b83a68-7fd2-410f-b823-343eeb869d00.png">
 
 * Test 2: delete item
 It turns out that the customer made a mistake in buying one of the items that was already added to the shopping list, so the customer used the "delete_item()" method to remove the item. The item that the customer wants to remove is 'Minyak Goreng'.
-<img width="569" alt="Screenshot 2023-05-07 at 10 17 59" src="https://user-images.githubusercontent.com/54851225/236655801-0565d40c-6dd4-45ac-9603-23acccfe11b4.png">
+<img width="569" alt="delete item" src="https://user-images.githubusercontent.com/54851225/236655801-0565d40c-6dd4-45ac-9603-23acccfe11b4.png">
+
+Check the shopping list to see the update:
+<img width="703" alt="check shopping list" src="https://user-images.githubusercontent.com/54851225/236656152-02d8e6f7-8746-44f2-b99b-146b43024221.png">
 
 * Test 3: reset transaction
 The customer wants to reset the previous shopping list.
-<img width="570" alt="Screenshot 2023-05-07 at 10 21 58" src="https://user-images.githubusercontent.com/54851225/236655930-37491014-7b97-40bf-a438-362637daad14.png">
+<img width="570" alt="reset transaction" src="https://user-images.githubusercontent.com/54851225/236655930-37491014-7b97-40bf-a438-362637daad14.png">
 
-* Test 4: chekc out
-* 
-
+* Test 4: check out
+The customer has finished entering all the items and checked out. The screen will display the details of the items, prices, discounts, and the total that must be paid.
+<img width="703" alt="check out" src="https://user-images.githubusercontent.com/54851225/236656286-1a9de676-97c7-408e-adc9-a4215bfbc8ec.png">
