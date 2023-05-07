@@ -183,3 +183,4 @@ The customer has finished entering all the items and checked out. The screen wil
 <img width="703" alt="check out" src="https://user-images.githubusercontent.com/54851225/236656384-51008847-d80a-4fcb-b76a-5e0ead52f89b.png">
 ### E. Conclusion
 
+
