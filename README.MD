@@ -164,7 +164,7 @@ The customer wants to buy 'Beras' and 'Minyak Goreng'. The item codes on the pac
 <img width="575" alt="input item 1" src="https://user-images.githubusercontent.com/54851225/236655586-6a7c6402-0035-44a9-8c1f-17cd156f7a74.png">
 <img width="573" alt="input item 2" src="https://user-images.githubusercontent.com/54851225/236655737-5fe9f294-3f80-460e-839d-e145c565e4dc.png">
 
-Check the shopping list:
+Check the shopping list:<br>
 <img width="702" alt="check shopping list" src="https://user-images.githubusercontent.com/54851225/236656136-38b83a68-7fd2-410f-b823-343eeb869d00.png">
 
 * Test 2: delete item
