@@ -181,6 +181,7 @@ Functions:
     #deletes all items from the shopping list.
     def reset_transaction(self):
         self.items.clear()
+```
 ```python
     # inserts transaction data into the transactions list.
     def insert_to_list(self, kode_item, nama_item, jumlah_item, harga, total_harga, diskon, harga_diskon):
