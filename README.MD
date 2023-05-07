@@ -181,6 +181,8 @@ The customer wants to reset the previous shopping list.
 * Test 4: check out <br>
 The customer has finished entering all the items and checked out. The screen will display the details of the items, prices, discounts, and the total that must be paid.
 <img width="703" alt="check out" src="https://user-images.githubusercontent.com/54851225/236656384-51008847-d80a-4fcb-b76a-5e0ead52f89b.png">
-### E. Conclusion
 
+### E. Conclusion
+The self-service application using python is a practical and efficient solution for managing shopping transactions in supermarkets. It allows users to add, update, and delete items from their shopping lists, calculate the total cost, and apply discounts as necessary. Additionally, the application stores transaction data in a database for easy access and analysis.
+In conclusion, Python proves to be a versatile and powerful tool for building applications that can streamline and simplify various tasks in the retail industry. By leveraging its extensive library ecosystem and ease of use, developers can create custom solutions to meet the unique needs of their businesses. As technology continues to advance, Python-based applications will play an increasingly important role in the retail landscape.
 
