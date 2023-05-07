@@ -160,7 +160,7 @@ del(): closes the database connection when the object is deleted.
 ### D. Demo
 After creating those 3 files, open cmd or terminal and go to the directory where the files are saved. Then run `python3 main.py` or `python main.py`.
 * Test 1: adding item <br>
-The customer wants to buy 'Beras' and 'Minyak Goreng'. The item codes on the packaging are 001 for 'Beras' and 004 for 'Minyak Goreng:
+The customer wants to buy 'Beras' and 'Minyak Goreng'. The item codes on the packaging are 001 for 'Beras' and 004 for 'Minyak Goreng':
 <img width="575" alt="input item 1" src="https://user-images.githubusercontent.com/54851225/236655586-6a7c6402-0035-44a9-8c1f-17cd156f7a74.png">
 <img width="573" alt="input item 2" src="https://user-images.githubusercontent.com/54851225/236655737-5fe9f294-3f80-460e-839d-e145c565e4dc.png">
 
